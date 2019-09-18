@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/user/github/dataStruct/List/cpp/DoubleList.cpp" "/home/user/github/dataStruct/List/cpp/cmake-build-debug/CMakeFiles/cpp.dir/DoubleList.cpp.o"
   "/home/user/github/dataStruct/List/cpp/List.cpp" "/home/user/github/dataStruct/List/cpp/cmake-build-debug/CMakeFiles/cpp.dir/List.cpp.o"
   "/home/user/github/dataStruct/List/cpp/main.cpp" "/home/user/github/dataStruct/List/cpp/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o"
   )

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/github/dataStruct/Stack/cpp/StackList.cpp
+StackList.h
+/home/user/github/dataStruct/Stack/cpp/StackList.h
+
+/home/user/github/dataStruct/Stack/cpp/StackList.h
+list
+-
+
+/home/user/github/dataStruct/Stack/cpp/StackVector.h
+vector
+-
+
+/home/user/github/dataStruct/Stack/cpp/main.cpp
+iostream
+-
+StackVector.h
+/home/user/github/dataStruct/Stack/cpp/StackVector.h
+StackList.h
+/home/user/github/dataStruct/Stack/cpp/StackList.h
+

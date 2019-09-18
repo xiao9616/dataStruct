@@ -123,6 +123,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+DoubleList.o: DoubleList.cpp.o
+
+.PHONY : DoubleList.o
+
+# target to build an object file
+DoubleList.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/DoubleList.cpp.o
+.PHONY : DoubleList.cpp.o
+
+DoubleList.i: DoubleList.cpp.i
+
+.PHONY : DoubleList.i
+
+# target to preprocess a source file
+DoubleList.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/DoubleList.cpp.i
+.PHONY : DoubleList.cpp.i
+
+DoubleList.s: DoubleList.cpp.s
+
+.PHONY : DoubleList.s
+
+# target to generate assembly for a file
+DoubleList.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/DoubleList.cpp.s
+.PHONY : DoubleList.cpp.s
+
 List.o: List.cpp.o
 
 .PHONY : List.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
+	@echo "... DoubleList.o"
+	@echo "... DoubleList.i"
+	@echo "... DoubleList.s"
 	@echo "... List.o"
 	@echo "... List.i"
 	@echo "... List.s"

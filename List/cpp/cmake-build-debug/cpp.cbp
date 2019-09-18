@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/user/github/dataStruct/List/cpp/DoubleList.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/home/user/github/dataStruct/List/cpp/DoubleList.h">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/home/user/github/dataStruct/List/cpp/List.cpp">
 			<Option target="cpp"/>
 		</Unit>
