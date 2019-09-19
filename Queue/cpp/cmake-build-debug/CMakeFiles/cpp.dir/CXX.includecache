@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/github/dataStruct/Queue/cpp/QueueArray.cpp
+QueueArray.h
+/home/user/github/dataStruct/Queue/cpp/QueueArray.h
+
+/home/user/github/dataStruct/Queue/cpp/QueueArray.h
+iostream
+-
+

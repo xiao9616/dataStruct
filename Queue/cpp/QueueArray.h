@@ -5,6 +5,7 @@
 #ifndef CPP_QUEUEARRAY_H
 #define CPP_QUEUEARRAY_H
 
+#include <iostream>
 using namespace std;
 class QueueArray {
 private:

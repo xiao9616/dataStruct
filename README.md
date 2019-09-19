@@ -4,4 +4,5 @@
 - [x] List
 - [x] Stack
 - [x] Queue
+- [ ] Tree
 

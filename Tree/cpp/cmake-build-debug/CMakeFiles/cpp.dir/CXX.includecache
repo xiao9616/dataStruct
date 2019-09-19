@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/github/dataStruct/Tree/cpp/BinarySearchTree.cpp
+iostream
+-
+BinarySearchTree.h
+/home/user/github/dataStruct/Tree/cpp/BinarySearchTree.h
+stack
+-
+
+/home/user/github/dataStruct/Tree/cpp/BinarySearchTree.h
+BinaryTreeNode.h
+/home/user/github/dataStruct/Tree/cpp/BinaryTreeNode.h
+queue
+-
+
+/home/user/github/dataStruct/Tree/cpp/BinaryTreeNode.h
+
