@@ -7,26 +7,48 @@
 
 #include "BinaryTreeNode.h"
 #include <queue>
+#include <stack>
 
 using namespace std;
+
 class BinarySearchTree {
 private:
     BinaryTreeNode *root;
+
+    void preOrderSearch(BinaryTreeNode *root);
+
+    void midOrderSearch(BinaryTreeNode *root);
+
+    void lastOrderSearch(BinaryTreeNode *root);
+
 public:
     BinarySearchTree();
 
     virtual ~BinarySearchTree();
 
-    void clear(BinaryTreeNode *root);
+    void showNode(BinaryTreeNode *p);
 
     void insert(int val);
 
     void breadSearch();
 
-    void deepSearch();
+    void preOrder();
 
-    void showNode(BinaryTreeNode *p);
+    void midOrder();
 
+    void lastOrder();
+
+    void preOrderByStack();
+
+    void midOrderByStack();
+
+    void lastOrderByStack();
+
+    BinaryTreeNode *search(int val);
+
+    void deleteByMerge(int val);
+
+    void deleteByCopy(int val);
 };
 
 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/github/dataStruct/BTree/cpp/BTree.h
+BTreeNode.h
+/home/user/github/dataStruct/BTree/cpp/BTreeNode.h
+map
+-
+iostream
+-
+
+/home/user/github/dataStruct/BTree/cpp/BTreeNode.h
+list
+-
+
+/home/user/github/dataStruct/BTree/cpp/main.cpp
+iostream
+-
+BTree.h
+/home/user/github/dataStruct/BTree/cpp/BTree.h
+

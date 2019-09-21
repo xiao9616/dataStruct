@@ -4,5 +4,7 @@
 - [x] List
 - [x] Stack
 - [x] Queue
-- [ ] Tree
+- [x] Tree
+- [ ] BTree
+- [ ] AVLTree
 
