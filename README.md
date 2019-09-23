@@ -7,4 +7,6 @@
 - [x] Tree
 - [x] BTree
 - [x] AVLTree
+- [ ] Red Black Tree
+- [ ] Huffman
 
