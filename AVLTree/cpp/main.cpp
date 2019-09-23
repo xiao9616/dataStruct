@@ -1,6 +1,10 @@
 #include <iostream>
-
+#include "AVLTree.h"
+#include "AVLTreeNode.h"
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    AVLTree<long long> tree;
+    tree.insert(2);
+    tree.display();
     return 0;
 }

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/main.cpp.o"
   "CMakeFiles/cpp.dir/AVLTreeNode.cpp.o"
+  "CMakeFiles/cpp.dir/AVLTree.cpp.o"
   "cpp.pdb"
   "cpp"
 )

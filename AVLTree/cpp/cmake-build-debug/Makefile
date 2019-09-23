@@ -123,6 +123,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+AVLTree.o: AVLTree.cpp.o
+
+.PHONY : AVLTree.o
+
+# target to build an object file
+AVLTree.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/AVLTree.cpp.o
+.PHONY : AVLTree.cpp.o
+
+AVLTree.i: AVLTree.cpp.i
+
+.PHONY : AVLTree.i
+
+# target to preprocess a source file
+AVLTree.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/AVLTree.cpp.i
+.PHONY : AVLTree.cpp.i
+
+AVLTree.s: AVLTree.cpp.s
+
+.PHONY : AVLTree.s
+
+# target to generate assembly for a file
+AVLTree.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/AVLTree.cpp.s
+.PHONY : AVLTree.cpp.s
+
 AVLTreeNode.o: AVLTreeNode.cpp.o
 
 .PHONY : AVLTreeNode.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
+	@echo "... AVLTree.o"
+	@echo "... AVLTree.i"
+	@echo "... AVLTree.s"
 	@echo "... AVLTreeNode.o"
 	@echo "... AVLTreeNode.i"
 	@echo "... AVLTreeNode.s"

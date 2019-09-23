@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/user/github/dataStruct/AVLTree/cpp/AVLTree.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/home/user/github/dataStruct/AVLTree/cpp/AVLTree.h">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/home/user/github/dataStruct/AVLTree/cpp/AVLTreeNode.cpp">
 			<Option target="cpp"/>
 		</Unit>

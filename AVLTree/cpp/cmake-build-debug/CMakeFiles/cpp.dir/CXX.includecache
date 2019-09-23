@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/github/dataStruct/AVLTree/cpp/AVLTree.h
+AVLTreeNode.h
+/home/user/github/dataStruct/AVLTree/cpp/AVLTreeNode.h
+iostream
+-
+
+/home/user/github/dataStruct/AVLTree/cpp/AVLTreeNode.h
+string
+-
+algorithm
+-
+
+/home/user/github/dataStruct/AVLTree/cpp/main.cpp
+iostream
+-
+AVLTree.h
+/home/user/github/dataStruct/AVLTree/cpp/AVLTree.h
+AVLTreeNode.h
+/home/user/github/dataStruct/AVLTree/cpp/AVLTreeNode.h
+
