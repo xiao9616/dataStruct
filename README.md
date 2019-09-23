@@ -5,6 +5,6 @@
 - [x] Stack
 - [x] Queue
 - [x] Tree
-- [ ] BTree
-- [ ] AVLTree
+- [x] BTree
+- [x] AVLTree
 
